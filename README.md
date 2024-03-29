@@ -12,8 +12,20 @@ Welcome to the Odin Landing Page project! This repository contains the code for 
 
 ## Preview
 
-Visit the live website <a href="https://ulissesfalves.github.io/odin-landing-page/" target="_blank">here</a>
+Visit the live website [here](https://ulissesfalves.github.io/odin-landing-page/)
 
 ## Usage
 
 This landing page can be used as a starting point for your own project or as a learning resource to understand the basics of web development. Happy coding!
+
+<script>
+document.addEventListener('DOMContentLoaded', function() {
+    var links = document.querySelectorAll('a');
+    links.forEach(function(link) {
+        if (link.hostname !== window.location.hostname) {
+            link.setAttribute('target', '_blank');
+            link.setAttribute('rel', 'noopener noreferrer');
+        }
+    });
+});
+</script>

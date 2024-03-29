@@ -12,7 +12,7 @@ Welcome to the Odin Landing Page project! This repository contains the code for 
 
 ## Preview
 
-Visit the live website [here](https://ulissesfalves.github.io/odin-landing-page/){:target="_blank"}
+Visit the live website <a href="https://ulissesfalves.github.io/odin-landing-page/" target="_blank">here</a>
 
 ## Usage
 
